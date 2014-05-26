@@ -16,3 +16,12 @@ Then follow the following commands from the terminal or windows cmd console:
 - cd Pension-Delay-Calculator/
 - mvn test
 
+..........
+-Git Client is optional, one can also download the zip file (the project folder) unzip and execute the command 
+mvn test
+
+If there is mvn build failure due to dependancy and provided you have JDK 1.6 and over in your machine, you can re-build the project with the following command:
+mvn clean install
+then
+mvn test
+
