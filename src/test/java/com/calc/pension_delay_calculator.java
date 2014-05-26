@@ -26,7 +26,7 @@ public class pension_delay_calculator {
     private int monthlyContribution;
     private int expectedTaxRelease;
     private int afterTaxContribution;
-    private WebDriver driver; //declared
+    private WebDriver driver; //declared as WebDriver for optionality
     private String baseUrl;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
@@ -35,7 +35,7 @@ public class pension_delay_calculator {
 
     @Before
     public void setUp() throws Exception {
-        driver = new FirefoxDriver();
+        driver = new FirefoxDriver(); //opted for Firefox driver.
         baseUrl = "http://www.bestinvest.co.uk/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
@@ -45,7 +45,7 @@ public class pension_delay_calculator {
 
         driver.get(baseUrl + "investment-tools-and-calculators/pension-delay-calculator");
 
-        driver.switchTo().frame(0);
+        driver.switchTo().frame(0); //Switch into embedded frame in order to retrieve element data
 
         for (int second = 0;; second++) {
             if (second >= 60) fail("timeout");
