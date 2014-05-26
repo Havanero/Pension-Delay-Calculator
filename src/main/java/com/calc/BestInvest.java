@@ -15,5 +15,4 @@ public class BestInvest {
     }
 //missing useful calculation methods...
 
-
 }
