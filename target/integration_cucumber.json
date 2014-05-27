@@ -1,7 +1,7 @@
 [
   {
     "id": "pension-delay-calculator",
-    "description": "In order to make the right contribution\nAs a user\nI want to to choose the time period to delay my pension",
+    "description": "In order to make the right contribution\r\nAs a user\r\nI want to to choose the time period to delay my pension",
     "name": "Pension Delay Calculator",
     "keyword": "Feature",
     "line": 1,
@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 79068510,
+              "duration": 152542954,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "before": [
           {
             "result": {
-              "duration": 4945724754,
+              "duration": 3055718192,
               "status": "passed"
             },
             "match": {
@@ -37,7 +37,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3963902576,
+              "duration": 3422540126,
               "status": "passed"
             },
             "name": "That I click on pension delay calculator link",
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 102503223,
+              "duration": 51293975,
               "status": "passed"
             },
             "name": "I was born in the year 1980",
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 104779063,
+              "duration": 50349480,
               "status": "passed"
             },
             "name": "My retirement age is 70",
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 93081181,
+              "duration": 54688067,
               "status": "passed"
             },
             "name": "My Annual salary before tax is 50000",
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 1038565477,
+              "duration": 220316055,
               "status": "passed"
             },
             "name": "My gross pension contribution is 100  a \u003cselection\u003e:",
@@ -135,7 +135,7 @@
           },
           {
             "result": {
-              "duration": 52849634,
+              "duration": 33678248,
               "status": "passed"
             },
             "name": "Tax relief from the taxman will be 40",
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 37609273,
+              "duration": 21454966,
               "status": "passed"
             },
             "name": "My contribution will be 60",
@@ -171,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 45544233,
+              "duration": 29203680,
               "status": "passed"
             },
             "name": "I delay starting my pension by 4 years",
@@ -189,7 +189,7 @@
           },
           {
             "result": {
-              "duration": 38405549,
+              "duration": 17488726,
               "status": "passed"
             },
             "name": "My total pension pot could be 23",
@@ -207,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 47385074,
+              "duration": 14122536,
               "status": "passed"
             },
             "name": "Annual pension in real terms",
@@ -219,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 31380505,
+              "duration": 16723187,
               "status": "passed"
             },
             "name": "My total delayed pension pot could be",
@@ -231,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 44714782,
+              "duration": 19608950,
               "status": "passed"
             },
             "name": "Delayed annual pension in real terms",
@@ -245,6 +245,6 @@
         "type": "scenario"
       }
     ],
-    "uri": "com/calc/pension_delay_calculator.feature"
+    "uri": "pension_delay_calculator.feature"
   }
 ]

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.calc.CalculatorRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.725 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.812 sec

@@ -1,13 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("com/calc/pension_delay_calculator.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("pension_delay_calculator.feature");
 formatter.feature({
   "id": "pension-delay-calculator",
-  "description": "In order to make the right contribution\nAs a user\nI want to to choose the time period to delay my pension",
+  "description": "In order to make the right contribution\r\nAs a user\r\nI want to to choose the time period to delay my pension",
   "name": "Pension Delay Calculator",
   "keyword": "Feature",
   "line": 1
 });
 formatter.before({
-  "duration": 4945724754,
+  "duration": 3055718192,
   "status": "passed"
 });
 formatter.scenario({
@@ -96,7 +96,7 @@ formatter.match({
   "location": "pension_delay_calculator.That_I_click_on_pension_delay_calculator_link()"
 });
 formatter.result({
-  "duration": 3963902576,
+  "duration": 3422540126,
   "status": "passed"
 });
 formatter.match({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "pension_delay_calculator.I_was_born_in_the_year(int)"
 });
 formatter.result({
-  "duration": 102503223,
+  "duration": 51293975,
   "status": "passed"
 });
 formatter.match({
@@ -122,7 +122,7 @@ formatter.match({
   "location": "pension_delay_calculator.My_retirement_age_is(int)"
 });
 formatter.result({
-  "duration": 104779063,
+  "duration": 50349480,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "pension_delay_calculator.My_Annual_salary_before_tax_is(int)"
 });
 formatter.result({
-  "duration": 93081181,
+  "duration": 54688067,
   "status": "passed"
 });
 formatter.match({
@@ -148,7 +148,7 @@ formatter.match({
   "location": "pension_delay_calculator.My_gross_pension_contribution_is_a_selection(int,String\u003e)"
 });
 formatter.result({
-  "duration": 1038565477,
+  "duration": 220316055,
   "status": "passed"
 });
 formatter.match({
@@ -161,7 +161,7 @@ formatter.match({
   "location": "pension_delay_calculator.Tax_relief_from_the_taxman_will_be(int)"
 });
 formatter.result({
-  "duration": 52849634,
+  "duration": 33678248,
   "status": "passed"
 });
 formatter.match({
@@ -174,7 +174,7 @@ formatter.match({
   "location": "pension_delay_calculator.My_contribution_will_be(int)"
 });
 formatter.result({
-  "duration": 37609273,
+  "duration": 21454966,
   "status": "passed"
 });
 formatter.match({
@@ -187,7 +187,7 @@ formatter.match({
   "location": "pension_delay_calculator.I_delay_starting_my_pension_by_years(int)"
 });
 formatter.result({
-  "duration": 45544233,
+  "duration": 29203680,
   "status": "passed"
 });
 formatter.match({
@@ -200,32 +200,32 @@ formatter.match({
   "location": "pension_delay_calculator.My_total_pension_pot_could_be(int)"
 });
 formatter.result({
-  "duration": 38405549,
+  "duration": 17488726,
   "status": "passed"
 });
 formatter.match({
   "location": "pension_delay_calculator.Annual_pension_in_real_terms()"
 });
 formatter.result({
-  "duration": 47385074,
+  "duration": 14122536,
   "status": "passed"
 });
 formatter.match({
   "location": "pension_delay_calculator.My_total_delayed_pension_pot_could_be()"
 });
 formatter.result({
-  "duration": 31380505,
+  "duration": 16723187,
   "status": "passed"
 });
 formatter.match({
   "location": "pension_delay_calculator.Delayed_annual_pension_in_real_terms()"
 });
 formatter.result({
-  "duration": 44714782,
+  "duration": 19608950,
   "status": "passed"
 });
 formatter.after({
-  "duration": 79068510,
+  "duration": 152542954,
   "status": "passed"
 });
 });
