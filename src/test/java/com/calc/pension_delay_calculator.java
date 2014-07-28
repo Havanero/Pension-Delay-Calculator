@@ -6,9 +6,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.*;
+import org.openqa.selenium.browserlaunchers.locators.FirefoxLocator;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.File;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -35,7 +39,18 @@ public class pension_delay_calculator {
 
     @Before
     public void setUp() throws Exception {
-        driver = new FirefoxDriver(); //opted for Firefox driver.
+
+
+    // <editor-fold defaultstate="collapsed" desc="Windows User FireFox Locator">
+        FirefoxBinary binary = new FirefoxBinary(new File("C:\\Users\\Caleb.Carvalho\\AppData\\Local\\Mozilla Firefox\\firefox.exe\\"));
+        FirefoxProfile profile = new FirefoxProfile();
+        driver = new FirefoxDriver(binary,profile); //opted for Firefox driver.
+   // </editor-fold>
+
+    // <editor-fold defaultstate="collapsed" desc="Global Setting">
+     //driver = new FirefoxDriver(); //opted for Firefox driver.
+    //</editor-fold>
+
         baseUrl = "http://www.bestinvest.co.uk/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
